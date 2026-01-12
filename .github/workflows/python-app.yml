@@ -41,7 +41,7 @@ jobs:
     runs-on: windows-latest
     steps:
      - name: Create Executable
-        uses: sayyid5416/pyinstaller
+        uses: sayyid5416/pyinstaller@v1.8.0
         with:
           python_ver: '3.12'
           spec: 'main.py'
